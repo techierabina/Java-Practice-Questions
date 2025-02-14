@@ -1,5 +1,6 @@
-import java.util.Scanner;
+/*Program to find the Fibonacci Sequence */
 
+import java.util.Scanner;
 public class FibonacciSequence {
       public static int fibonacciFunction(int n){
         if(n==0){
