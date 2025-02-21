@@ -1,5 +1,5 @@
+/*A function to find the factorial of the user input */
 import java.util.Scanner;
-
 public class factiorialFunction {
     
     public static int fact(int n){
