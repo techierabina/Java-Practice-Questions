@@ -7,9 +7,6 @@ public class digitCount {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter the digits : ");
         int number=sc.nextInt();
-        /*  program by using simple string function 
-        String numberStr=Integer.toString(number);
-        System.out.println("The number of digit in the string is: "+ numberStr.length()); */
         int count=0;
         number=Math.abs(number);
         if(number == 0){
