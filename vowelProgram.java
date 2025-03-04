@@ -1,5 +1,4 @@
 //Program to count the number of vowel in string
-
 import java.util.Scanner;
 public class vowelProgram{
     public static void main(String[] args) {
