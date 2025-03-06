@@ -1,3 +1,18 @@
+/*Bank Account System (Encapsulation)
+Create a class BankAccount with:
+Private attributes: accountNumber, holderName, balance
+Constructor to initialize these values
+Methods:
+deposit(double amount): Adds money to balance.
+withdraw(double amount): Deducts money from balance (only if sufficient funds).
+displayBalance(): Displays account details.
+In the main() method:
+Create a BankAccount object.
+Deposit and withdraw some money.
+Display the final balance.
+ */
+
+
 class BankAccount{
     private int accountNumber;
     private String holderName;
