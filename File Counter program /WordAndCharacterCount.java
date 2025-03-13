@@ -21,11 +21,18 @@ public class WordAndCharacterCount {
 
                 // Step 4: Process each line for words and characters
                 String[] words = line.split("\\s+"); // Split by spaces (handles multiple spaces)
-                int wordCount = (line.isEmpty()) ? 0 : words.length; // Handle empty lines
+                int wordCount;
+                if (line.isEmpty()) {
+                    wordCount = 0;
+                } else {
+                    wordCount = words.length;
+                }
+
                 int charCount = line.replaceAll("\\s+", "").length(); // Remove spaces to count only characters
 
                 // Step 5: Display results
-                System.out.println("Line " + lineNumber + " (Words: " + wordCount + ", Characters: " + charCount + "): " + line);
+                System.out.println(
+                        "Line " + lineNumber + " (Words: " + wordCount + ", Characters: " + charCount + "): " + line);
                 lineNumber++;
             }
 
