@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class countDigits {
+public class CountDigits {
 
     public static void digitCount(int number) {
         if (number == 0) {
@@ -21,6 +21,7 @@ public class countDigits {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of digits: ");
         int number = sc.nextInt();
+        sc.close();
         digitCount(number);
 
     }
