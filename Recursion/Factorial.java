@@ -15,4 +15,4 @@ public class Factorial {
         System.out.println("The factorial is: "+result);
         sc.close();
     }
-}
+} 
