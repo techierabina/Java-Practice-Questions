@@ -1,0 +1,19 @@
+Write a Java program that:
+
+Takes the filename as a command-line argument.
+
+Reads integers (1 to 50 inclusive) from the file using Scanner.
+
+Stores the valid numbers in an Container.
+
+Implements the following functions:
+
+getMean: Calculates and returns the mean.
+
+getMode : Calculates and returns the mode using a simple frequency array (without HashMap).
+
+getMedian : Calculates and returns the median by sorting the list.
+
+If the file is empty or contains no valid numbers, it should display an appropriate message.
+
+The program should print the Mean, Mode, and Median of the numbers in the file.
