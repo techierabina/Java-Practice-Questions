@@ -1,3 +1,8 @@
+/*
+Create an ArrayList of String values (names of 5 students).
+Write a loop to iterate through the list and print each name in uppercase.
+Then, remove any name that contains the letter “a” and print the updated list.
+ */
 import java.util.*;
 public class StudentName {
 	public static void main(String[] args) {
