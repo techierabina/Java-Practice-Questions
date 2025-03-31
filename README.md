@@ -1,9 +1,22 @@
-# Java-Practice-Questions
-This repo contains Java practice questions to enhance logical thinking and problem-solving skills. Topics include loops, recursion, arrays, strings, and sorting. Solutions are well-structured, beginner-friendly, and useful for coding practice and interview prep. Regular updates ensure fresh challenges. 🚀
-✅ A brief description of the repo
-✅ Topics covered (loops, recursion, arrays, etc.)
-✅ How to use the questions (solve them yourself, check solutions, etc.)
-✅ Any contribution guidelines (if you want others to add questions)
+# ☕ Java Practice Questions – Improve Your Problem-Solving Skills 🚀  
 
-It makes your repo look more professional and easier to navigate. 
+This repository contains **Java practice questions** designed to enhance **logical thinking and problem-solving skills**. Topics include **loops, recursion, arrays, strings, sorting, and more**.  
+
+Each problem is structured with **clear explanations and solutions**, making this repo useful for **beginners, coding practice, and interview preparation**. ✅  
+
+## 📌 Topics Covered  
+✔ **Loops** (for, while, do-while)  
+✔ **Recursion** (factorial, Fibonacci, backtracking)  
+✔ **Arrays** (searching, sorting, manipulation)  
+✔ **Strings** (palindrome, substring, anagram)  
+✔ **Sorting Algorithms** (Bubble Sort, Quick Sort, Merge Sort)  
+✔ **Mathematical Problems** (GCD, LCM, prime numbers)  
+✔ **Basic Data Structures** (stacks, queues, linked lists – coming soon!)  
+
+## 🛠 How to Use This Repository  
+🔹 **Try solving the questions first** before checking the solutions.  
+🔹 Each question is well-structured with **difficulty levels**.  
+🔹 **Check the provided Java solutions** for learning best practices.  
+🔹 **Use it for interview prep** – great for coding interviews and competitive programming!  
+
 
