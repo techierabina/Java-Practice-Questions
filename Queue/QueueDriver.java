@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.Scanner;
 
 class Queue {
     class Node {
@@ -10,37 +10,39 @@ class Queue {
     Node tail;
 
     void enqueue(int value) {
-        if (tail == null) {
+        if(tail == null) {
             tail = new Node();
             tail.data = value;
             tail.next = null;
             head = tail;
-        } else {
+        }
+        else {
             Node temp = new Node();
             temp.data = value;
             temp.next = null;
             tail.next = temp;
             tail = temp;
-
         }
     }
 
     void dequeue() {
-        if (head == null) {
+        if(head == null) {
             System.out.println("Queue is empty.");
-        } else {
-            if (head.next == null) {
-                head=null;
-                tail=null;
-            } else {
+        }
+        else {
+            if(head.next == null) {
+                head = null;
+                tail = null;
+            }
+            else {
                 Node temp = head;
                 head = head.next;
                 temp.next = null;
             }
-
         }
     }
-    void view(){
+
+    void view() {
         if(head == null) {
             System.out.println("Queue is empty.");
         }
@@ -48,18 +50,16 @@ class Queue {
             System.out.println("Queue elements are: ");
             Node temp = head;
             while(temp != null) {
-                System.out.print(temp.data+" ");
+                System.out.print(temp.data + " ");
                 temp = temp.next;
             }
             System.out.println();
         }
-    
     }
 }
 
 public class QueueDriver {
-
-    public static void main(String[] var0) {
+    public static void main(String[] args) {
         int choice, value;
         Scanner input = new Scanner(System.in);
         Queue queue = new Queue();
@@ -72,9 +72,10 @@ public class QueueDriver {
             System.out.println("------------------------");
             System.out.println("Enter your choice: ");
             choice = input.nextInt();
+
             switch(choice) {
                 case 1:
-                    System.out.println("Enter a value to push:");
+                    System.out.println("Enter a value to enqueue:");
                     value = input.nextInt();
                     queue.enqueue(value);
                     break;
@@ -88,6 +89,5 @@ public class QueueDriver {
                     break;
             }
         }while(choice != 4);
-
     }
 }

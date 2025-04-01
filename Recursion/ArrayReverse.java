@@ -31,7 +31,6 @@ public class ArrayReverse {
         inputArray(array, sc);
         print(array);
         reverseArray(array, 0, n - 1);
-
         // Print reversed array
         System.out.println("Reversed:");
         print(array);

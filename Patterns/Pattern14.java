@@ -16,7 +16,7 @@ public class Pattern14 {
             for (char ch = 'A'; ch < 'A' + i; ch++) { // Loop for characters
                 System.out.print(ch + " ");
             }
-            System.out.println(); // Move to next line
+            System.out.println();
         }
     }
 }
